@@ -1,36 +1,26 @@
 #include<stdio.h>
-bool flag = false;
-bool add(int a, int b) 
+int add(int a, int b) 
 {
-    int s=a+b;
-    if(s)
-    flag =true;
-    return flag;
+    int sum=a+b;
+    return sum;
 }
 
-bool sub(int a, int b) 
+int sub(int a, int b) 
 {
-    int m=a-b;
-    if(m<0)
-    m=-m;
-    if(m)
-    flag =true;
-    return flag;
+    int diff=a-b;
+    return diff;
 }
 
-bool mul(int a, int b) 
+int mul(int a, int b) 
 {
-    int p=a*b;
-    if(p)
-   flag =true;
-    return flag;
+    int pro=a*b;
+    return pro;
 }   
-bool division()
+int division()
 {
     
 }
-bool rem()
+int rem()
 {
     
 }
-
