@@ -25,11 +25,12 @@ double rem()
     
 }
 int main()
-{ 
+{
  float a,b,c;
  a=add(5,4);
  b=sub(5,4);
  c=mul(5,4);
- printf("%f %f %f",a,b,c);
+printf("%f %f %f",a,b,c);
+return 0;
 }
 
